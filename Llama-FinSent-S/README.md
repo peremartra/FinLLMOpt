@@ -126,8 +126,4 @@ If you use this model in your research or applications, please cite:
 This model follows the licensing terms of LLaMA models. While this repository is under **Apache-2.0**, models derived from LLaMA may have additional licensing restrictions. Please review the respective model cards for details.
 
 
----
-
-This README provides a comprehensive overview of the **Llama-FinSent-S** model, ensuring clarity in usage, performance, and limitations.
-
 
