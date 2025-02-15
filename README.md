@@ -29,10 +29,15 @@ You can also contribute to the repository getting responsability in the creation
 10. open a Pull Request.
 11. Be promoted in my social networks as important contibutor to the repository :-)
 
+## License.
+This project is licensed under a permisive Apache-2.0 License. See the LICENSE file for details. However, some models derived from LLaMA models or other sources may have more restrictive licenses. Please check individual model directories for specific licensing terms.
+
 ## Citation
+```
 @misc{FinLLMOpt2025,
   title={FinLLMOpt: Optimized Financial Large Language Models},
   author={Pere Martra},
   year={2025},
   url={https://github.com/your_username/FinLLMOpt}
 }
+```
