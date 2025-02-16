@@ -6,9 +6,13 @@
 
 ## Model Overview
 
-Llama-FinSent-S is based on `oopere/pruned40-llama-1b`, a pruned version of LLaMA-3.2-1B. The pruning process reduces the number of neurons in the MLP layers by **40%**, leading to:
-- **Lower power consumption** and improved efficiency.
-- **Retained competitive performance** in reasoning and instruction-following tasks.
+Llama-FinSent-S is based on `oopere/pruned40-llama-1b`, a pruned version of LLaMA-3.2-1B. It is 26% smaller while improving IFEVAL by 50% and MUSR by 400% (2.56 to 12.84), according to the Hugging Face LLM Leaderboard. These benchmarks assess instruction-following and multi-step reasoning, critical for sentiment analysis in finance.
+
+### Why Are These Benchmarks Important?
+* IFEVAL (Instruction Following Evaluation): Measures the model’s ability to follow structured prompts, crucial for extracting sentiment insights from structured financial reports.
+* MUSR (Multi-Step Reasoning): Evaluates logical reasoning across multiple steps, improving financial data interpretation and sentiment assessment.
+
+These enhancements ensure Llama-FinSent-S is more effective in financial contexts requiring structured sentiment analysis and reasoning.
 
 Additionally, the **MLP expansion ratio** has been reduced from **300% to 140%**, an optimal trade-off identified in the paper *Exploring GLU Expansion Ratios: Structured Pruning in Llama-3.2 Models*.
 
