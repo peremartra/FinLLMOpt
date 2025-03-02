@@ -13,6 +13,8 @@ In the rapidly evolving financial sector, the need for specialized NLP models ha
 
 Llama-FinSent-S is a fine-tuned and pruned version of LLaMA-3.2-1B, specifically designed for financial sentiment analysis. It is 26% smaller than the original model while achieving a 50% improvement in the IFEVAL benchmark and an impressive 400% improvement in the MUSR benchmark. These benchmarks measure the model's ability to follow instructions and reason, which are crucial for effective financial sentiment analysis.
 
+### [FinChat-XS]
+
 ## Follow Model-Specific Instructions. 
 Each model has it's own README.md with detailed usage instructions. 
 
