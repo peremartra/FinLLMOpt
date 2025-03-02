@@ -114,7 +114,7 @@ If you use this model in your research or applications, please cite:
   title={Llama-FinSent-S: A Pruned LLaMA-3.2 Model for Financial Sentiment Analysis},
   author={Pere Martra},
   year={2025},
-  url={https://huggingface.co/your-hf-username/Llama-FinSent-S}
+  url={https://huggingface.co/oopere/Llama-FinSent-S}
 }
 
 @misc{Martra2024,
