@@ -13,7 +13,9 @@ In the rapidly evolving financial sector, the need for specialized NLP models ha
 
 Llama-FinSent-S is a fine-tuned and pruned version of LLaMA-3.2-1B, specifically designed for financial sentiment analysis. It is 26% smaller than the original model while achieving a 50% improvement in the IFEVAL benchmark and an impressive 400% improvement in the MUSR benchmark. These benchmarks measure the model's ability to follow instructions and reason, which are crucial for effective financial sentiment analysis.
 
-### [FinChat-XS]
+### [FinChat-XS](https://github.com/peremartra/FinLLMOpt/tree/main/FinChat-XS)
+[![Download Model](https://img.shields.io/badge/Download%20Model-Hugging%20Face-blue?style=for-the-badge&logo=HuggingFace)](https://huggingface.co/oopere/FinChat-XS)
+FinChat-XS is a lightweight financial domain language model (360M) designed to answer questions about finance, markets, investments, and economics in a conversational style. This first version of the model has been trained using the dataset [Sujet-Finance-Instruct-177k](sujet-ai/Sujet-Finance-Instruct-177k). However, the need for high-quality conversational datasets focused on personal finance has emerged. This repository will work towards addressing that gap, aiming to enhance the quality of financial chat models.
 
 ## Follow Model-Specific Instructions. 
 Each model has it's own README.md with detailed usage instructions. 
