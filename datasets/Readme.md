@@ -8,7 +8,7 @@ Our goal is to provide high-quality, reproducible data resources that support th
 
 ## 📂 Available Datasets
 
-### 1. [`retailbanking-conversations/`](./retailbanking-conversations/)
+### 1. [`retailbanking-conversations/`](./RetailBanking-Conversations)
 
 - 320 synthetic conversations between customers and financial advisors
 - 160 unique personas across 10 banking topics
