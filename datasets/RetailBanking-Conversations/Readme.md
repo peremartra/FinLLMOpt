@@ -4,14 +4,14 @@ This dataset contains 320 realistic synthetic conversations between banking cust
 
 ---
 
-## 📂 Contents
+## Contents
 - `retail_banking_dataset.json`: The dataset in json format. 
 - `README.md`: This file.
-- 🔗 Dataset hosted on Hugging Face: [RetailBanking-Conversations](https://huggingface.co/datasets/oopere/RetailBanking-Conversations)
+- Dataset hosted on Hugging Face: [RetailBanking-Conversations](https://huggingface.co/datasets/oopere/RetailBanking-Conversations)
 
 ---
 
-## 🧠 Overview
+## Overview
 
 - **Conversations**: 320
 - **Profiles**: 160 unique financial personas
@@ -31,11 +31,11 @@ Each conversation simulates a customer interacting with a financial advisor to a
 
 ---
 
-## 🧙‍♂️ How it was generated: WizardSData
+## How it was generated: WizardSData 🧙‍♂️
 
 This dataset was created using [WizardSData](https://github.com/peremartra/WizardSData), an open-source Python library developed to simplify the generation of structured datasets using LLMs.
 
-### ✅ Highlights of the generation process:
+### Highlights of the generation process:
 - **Two-role conversation simulation** (client ↔ advisor)
 - **Role-specific prompt templates** using Jinja2
 - **OpenAI GPT-4o** as the generation model
@@ -44,7 +44,7 @@ This dataset was created using [WizardSData](https://github.com/peremartra/Wizar
 
 ---
 
-## 📄 Example Profile (used in generation)
+## Example Profile (used in generation)
 
 ```json
 {
@@ -66,8 +66,8 @@ This dataset was created using [WizardSData](https://github.com/peremartra/Wizar
 
 ---
 
-## 🧩 Prompt Templates
-### 🗣️ `financial_client_01.j2`
+## Prompt Templates
+### `financial_client_01.j2`
 Used to instruct the client role in each conversation.
 
 Key behaviors:
@@ -78,7 +78,7 @@ Key behaviors:
 Excerpt:
 > You are a 42-year-old married client living in a urban area of Spain. You work as a teacher and have basic financial knowledge...
 
-### 🧑‍💼 `financial_advisor_01.j2`
+### `financial_advisor_01.j2`
 Used for the advisor role, reacting to client input.
 
 Key instructions:
@@ -92,7 +92,7 @@ Excerpt:
 
 ---
 
-## 📘 Reproducibility
+## Reproducibility
 
 To generate your own dataset:
 1. Install `wizardSdata`
@@ -122,13 +122,13 @@ wsd.start_generation()
 
 ---
 
-## 🪪 License
+## Dataset License
 
 MIT License.
 
 ---
 
-## ✍️ Author
+## Author
 
 Created by **Pere Martra** as part of the FinLLMOpt initiative.
 
