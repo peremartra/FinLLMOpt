@@ -132,5 +132,5 @@ MIT License.
 
 Created by **Pere Martra** as part of the FinLLMOpt initiative.
 
-For questions, suggestions, or contributions: feel free to open an issue or contact me via [LinkedIn](https://www.linkedin.com/in/peremartra/).
+For questions, suggestions, or contributions: feel free to open an issue or contact me via [LinkedIn](https://www.linkedin.com/in/pere-martra/).
 
